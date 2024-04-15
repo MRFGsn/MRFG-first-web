@@ -1,9 +1,11 @@
 import turtle
-from flask import Flask
-app = Flask(__name__)
 
-@app.route('/')
+''' 
+╭─╮ ┬┈┬ ╭╮╭ ╭─╮ ┬─╮ ┈ ╭╮┈ ┬┈┬ ┈ ╭─╮ ╭─╮ ╭┬╮ ┬┈┬ 
+│┈│ │││ │││ ├┤┈ ├┬╯ ┈ ├┴╮ ╰┬╯ ┈ ╰─╮ ├┤┈ ┈│┈ ├─┤  
+╰─╯ ╰┴╯ ╯╰╯ ╰─╯ ┴╰─ ┈ ╰─╯ ┈┴┈ ┈ ╰─╯ ╰─╯ ┈┴┈ ┴┈┴  
 
+    My Codes Don't Copy......              '''
 
 Sl=turtle.getscreen()
 S=turtle.Turtle()
@@ -113,8 +115,39 @@ X.pen(pencolor='blue',fillcolor='blue',pensize='4')
 X.fd(500)
 X.rt(90)
 
+K.rt(180)
+K.fd(220)
+K.lt(90)
+K.fd(200)
+K.lt(90)
+K.fd(105)
+K.rt(180)
+K.fd(120)
+K.rt(90)
+K.fd(150)
+K.penup()
+K.fd(100)
+K.rt(90)
+K.bk(50)
+K.pendown()
 
+A=K.clone()
+A.pen(pencolor='purple',fillcolor='purple',pensize='4')
+A.fd(1000)
+A.rt(90)
 
+P=A.clone()
+P.pen(pencolor='red',fillcolor='red',pensize='4')
+P.fd(500)
+P.rt(90)
 
-if __name__ == "__main__":
-    app.run()
+E=P.clone()
+E.pen(pencolor='aqua',fillcolor='aqua',pensize='4')
+E.fd(1000)
+E.rt(90)
+
+X=E.clone()
+X.pen(pencolor='blue',fillcolor='blue',pensize='4')
+X.fd(500)
+X.rt(90)
+
