@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Team MRFG'
-    return 'I will kill you'
+    return 'Hello Mr. Stark welcomes you by Snyder........'
+    
 
 print('your app is starting')
 
