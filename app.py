@@ -3,9 +3,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Koyeb'
+    return 'Team MRFG'
+    return 'I will kill you'
 
-print('This is My first web site')
+print('your app is starting')
 
 
 if __name__ == "__main__":
